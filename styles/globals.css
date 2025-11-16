@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  * {
+    @apply border-neutral-dark/20;
+  }
+  
+  body {
+    @apply bg-neutral-black text-neutral-light font-sans antialiased;
+    @apply selection:bg-accent-teal/30 selection:text-neutral-light;
+    font-size: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Smooth scroll with offset for sticky header */
+html {
+  scroll-padding-top: 80px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
