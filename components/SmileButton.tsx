@@ -151,7 +151,7 @@ export default function SmileButton() {
           });
         } else {
           // Wait a bit then fetch the updated value
-          await new Promise(resolve => setTimeout(resolve, 500));
+          await new Promise(resolve => setTimeout(resolve, 50));
           const countResponse = await fetch(`https://keyvalue.immanuel.co/api/KeyVal/GetValue/${appKey}/${itemKey}`);
           if (countResponse.ok) {
             const value = await countResponse.json();
