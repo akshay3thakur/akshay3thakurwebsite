@@ -228,7 +228,7 @@ export default function SmileButton() {
             {showMessage && !error && count !== null ? (
               <span className="inline-flex items-center gap-2">
                 <span className="text-2xl">🎉</span>
-                Thanks! You're the #{count} to add a smile!
+                Thanks! You&apos;re the #{count} to add a smile!
               </span>
             ) : showMessage && error ? (
               <span>Hmm — try again</span>

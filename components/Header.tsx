@@ -12,7 +12,7 @@ const navItems = [
   { label: 'Achievements', href: '#achievements' },
   { label: 'Volunteering', href: '#volunteering' },
   { label: 'Certifications', href: '#certifications' },
-  { label: 'Thoughts', href: 'https://akshay3thakur.wordpress.com/', external: true },
+  { label: 'Thoughts', href: 'https://akshay3thakur.hashnode.dev/', external: true },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -60,14 +60,26 @@ export default function Header() {
   }, [isMobileMenuOpen]);
 
   const handleNavClick = (href: string, external?: boolean) => {
-    setIsMobileMenuOpen(false); // Close mobile menu on click
     if (external) {
+      setIsMobileMenuOpen(false);
       window.open(href, '_blank', 'noopener,noreferrer');
     } else {
-      const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
+      // Close mobile menu first
+      setIsMobileMenuOpen(false);
+      // Use setTimeout to ensure menu closes before scrolling
+      setTimeout(() => {
+        const sectionId = href.replace('#', '');
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        }
+      }, 100);
     }
   };
 

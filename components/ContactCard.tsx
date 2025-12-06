@@ -37,7 +37,7 @@ export default function ContactCard() {
           >
             <h2 className="text-4xl font-bold text-neutral-light mb-6">Get in Touch</h2>
             <p className="text-lg text-neutral-light/80 mb-8">
-              Have a project in mind or just want to chat? I'd love to hear from you.
+              Have a project in mind or just want to chat? I&apos;d love to hear from you.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -107,7 +107,7 @@ export default function ContactCard() {
             aria-live="polite"
           >
             <p className="text-neutral-light text-sm">
-              I'll get back to you within 24 hours :)
+              I&apos;ll get back to you within 24 hours :)
             </p>
           </motion.div>
         )}

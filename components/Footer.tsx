@@ -21,7 +21,7 @@ export default function Footer() {
             Short essays & technical notes
           </p>
           <motion.a
-            href="https://akshay3thakur.wordpress.com/"
+            href="https://akshay3thakur.hashnode.dev/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
@@ -60,7 +60,7 @@ export default function Footer() {
               Back to top
             </a>
             <a
-              href="https://akshay3thakur.wordpress.com/"
+              href="https://akshay3thakur.hashnode.dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-light/60 hover:text-accent-teal transition-colors text-sm"

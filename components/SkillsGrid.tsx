@@ -6,12 +6,14 @@ const technicalSkills = [
   'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js',
   'Python', 'Salesforce', 'SQL', 'MongoDB', 'REST APIs',
   'Git', 'AWS', 'Google Cloud', 'HTML/CSS', 'Tailwind CSS',
+  'HubSpot', 'Linear', 'Clerk',
 ];
 
 const softSkills = [
   'Customer Success', 'Product Management', 'Growth Strategy',
   'Data Analysis', 'Team Leadership', 'Communication',
   'Problem Solving', 'Strategic Thinking', 'Stakeholder Management',
+  'Adaptability', 'Flexibility', 'In-depth Research',
 ];
 
 export default function SkillsGrid() {

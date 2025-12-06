@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['res.cloudinary.com'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -10,18 +9,9 @@ const nextConfig = {
       },
     ],
   },
-  webpack: (config, { isServer }) => {
-    // Fix webpack cache issues
-    if (!isServer) {
-      config.cache = {
-        type: 'filesystem',
-        buildDependencies: {
-          config: [__filename],
-        },
-      };
-    }
-    return config;
-  },
+  // Turbopack is enabled by default in Next.js 16
+  // If you need webpack, use: npm run build -- --webpack
+  turbopack: {},
 }
 
 module.exports = nextConfig

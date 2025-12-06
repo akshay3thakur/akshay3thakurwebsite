@@ -23,12 +23,12 @@ export default function Hero() {
           
           <p className="text-lg sm:text-xl md:text-2xl text-neutral-light/80 leading-relaxed max-w-2xl">
             I explore how things work, why they break, and what small changes can create outsized impact. 
-            Whether it's a product flow, an email experiment, or an everyday inconvenience, I enjoy 
+            Whether it&apos;s a product flow, an email experiment, or an everyday inconvenience, I enjoy 
             turning curiosity into clean, workable solutions.
           </p>
 
           <motion.a
-            href="https://akshay3thakur.wordpress.com/"
+            href="https://akshay3thakur.hashnode.dev/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

@@ -135,7 +135,7 @@ export default function QuoteCard() {
             <p className="text-base text-neutral-light/60">{formattedDate}</p>
           </div>
           <blockquote className="text-xl sm:text-2xl md:text-3xl italic text-neutral-light mb-6 leading-relaxed px-2">
-            "{quote?.quote || 'Keep shipping.'}"
+            &quot;{quote?.quote || 'Keep shipping.'}&quot;
           </blockquote>
           <p className="text-lg text-accent-teal font-medium">
             — {quote?.author || 'Akshay'}
