@@ -13,9 +13,21 @@ export interface TimelineEntry {
 
 const experiences: TimelineEntry[] = [
   {
+    company: 'G2',
+    role: 'Scaled Customer Success Manager (AMER)',
+    period: '03/2026 – Present',
+    points: [
+      'Manage a high-ACV scaled customer base in the AMER region, driving product adoption and long-term retention.',
+      'Partner with client leadership to align G2 platform capabilities with their Go-To-Market (GTM) strategies.',
+      'Utilize data-driven insights to manage a large book of business, identify expansion opportunities, and mitigate churn.',
+      'Execute strategic account reviews to demonstrate ROI and foster long-term partnerships.',
+    ],
+    logo: 'https://res.cloudinary.com/dmglst5zt/image/upload/v1776291343/G2Logo-Red_yeyj9v.png',
+  },
+  {
     company: 'Mailmodo',
     role: 'Customer Success Manager',
-    period: '01/2025 – Present',
+    period: '01/2025 – 02/2026',
     points: [
       'Manage onboarding for India and ROW clients by understanding unique business needs and providing tailored, high-impact email marketing solutions',
       'Drive adoption by assisting with product integrations, delivering strategic guidance, and ensuring seamless communication between technical and non-technical stakeholders',
