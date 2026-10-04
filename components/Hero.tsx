@@ -22,9 +22,9 @@ export default function Hero() {
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-neutral-light/80 leading-relaxed max-w-2xl">
-            I explore how things work, why they break, and what small changes can create outsized impact. 
-            Whether it&apos;s a product flow, an email experiment, or an everyday inconvenience, I enjoy 
-            turning curiosity into clean, workable solutions.
+            I work across customer success, product strategy, and operations to build systems that scale.
+            Whether managing enterprise accounts, building internal tooling to accelerate workflows, or designing
+            customer lifecycle automations, I focus on turning complex operational challenges into clean, reliable outcomes.
           </p>
 
           <motion.a

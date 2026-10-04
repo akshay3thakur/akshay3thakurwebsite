@@ -9,6 +9,7 @@ export interface TimelineEntry {
   period: string;
   points: string[];
   logo?: string;
+  linkedin?: string;
 }
 
 const experiences: TimelineEntry[] = [
@@ -16,11 +17,12 @@ const experiences: TimelineEntry[] = [
     company: 'G2',
     role: 'Scaled Customer Success Manager (AMER)',
     period: '03/2026 – Present',
+    linkedin: 'https://www.linkedin.com/company/g2dotcom/',
     points: [
-      'Manage a high-ACV scaled customer base in the AMER region, driving product adoption and long-term retention.',
-      'Partner with client leadership to align G2 platform capabilities with their Go-To-Market (GTM) strategies.',
-      'Utilize data-driven insights to manage a large book of business, identify expansion opportunities, and mitigate churn.',
-      'Execute strategic account reviews to demonstrate ROI and foster long-term partnerships.',
+      'Manage a $5M ARR book across 200+ enterprise and commercial accounts in the AMER region, owning adoption, retention, and expansion end to end.',
+      "Built internal tooling in Python, SQL, and Snowflake, connected to G2's MCP server and LLM APIs, to generate account briefs and performance reporting in a fraction of the usual time.",
+      "Run EBRs and GTM alignment sessions that connect platform usage to each account's broader pipeline and visibility goals.",
+      "Recognized company-wide as APAC MVP (FY'27), PEAK Performer (Sep 2026), and Innovative Trailblazer (Q2 FY'27).",
     ],
     logo: 'https://res.cloudinary.com/dmglst5zt/image/upload/v1776291343/G2Logo-Red_yeyj9v.png',
   },
@@ -28,8 +30,10 @@ const experiences: TimelineEntry[] = [
     company: 'Mailmodo',
     role: 'Customer Success Manager',
     period: '01/2025 – 02/2026',
+    linkedin: 'https://www.linkedin.com/company/mailmodo',
     points: [
-      'Manage onboarding for India and ROW clients by understanding unique business needs and providing tailored, high-impact email marketing solutions',
+      'Manage onboarding for 100+ APAC and EMEA clients by understanding unique business needs and providing tailored email marketing solutions',
+      'Use CS tools to build and implement automations that streamline customer lifecycle workflows and operational tasks',
       'Drive adoption by assisting with product integrations, delivering strategic guidance, and ensuring seamless communication between technical and non-technical stakeholders',
       'Collaborate cross-functionally with product and support teams to quickly resolve client issues and provide feedback for continuous platform improvement',
     ],
@@ -39,9 +43,10 @@ const experiences: TimelineEntry[] = [
     company: 'Infigo Eye Care',
     role: "Founder's Office",
     period: '09/2024 – 01/2025',
+    linkedin: 'https://www.linkedin.com/company/infigo-eye-hospital/',
     points: [
-      'Shadowed the Founder across strategy, marketing, and operations, contributing to experiments that improved patient awareness and acquisition.',
-      'It was a high-learning role that shaped how I think about users, growth, and building things from first principles.',
+      'Worked closely with the Founder across strategy, marketing, and operations, contributing to experiments that improved patient awareness and acquisition.',
+      'A high-learning stretch early in my career that shaped how I think about users, growth, and building things from first principles.',
     ],
     logo: 'https://res.cloudinary.com/dmglst5zt/image/upload/v1762539621/main-logo_uhcjcn.png',
   },
@@ -49,24 +54,24 @@ const experiences: TimelineEntry[] = [
     company: 'PwC India',
     role: 'Salesforce Development Apprenticeship',
     period: '05/2024 – 09/2024',
+    linkedin: 'https://www.linkedin.com/company/pwc/',
     points: [
-      'Selected for PwC\'s Cloud Technology Development Program (CTDP 2.0) receiving training on Salesforce and cloud technologies',
+      "Selected for PwC's Cloud Technology Development Program (CTDP 2.0) receiving training on Salesforce and cloud technologies",
       'Applied Salesforce skills to real-world projects and industry-specific challenges',
-    
     ],
-
-    logo: 'https://res.cloudinary.com/dmglst5zt/image/upload/v1762634764/download_p8j32c.png'// Placeholder - replace with PwC logo
+    logo: 'https://res.cloudinary.com/dmglst5zt/image/upload/v1762634764/download_p8j32c.png',
   },
   {
     company: 'Avasify',
     role: 'Co-founder',
     period: '01/2024 – 07/2024',
+    linkedin: 'https://www.linkedin.com/company/avasify/',
     points: [
       'Led product development, creating a web application for property management',
       'Managed cross-functional teams, launching the Avasify platform on time with high quality',
       'Spearheaded go-to-market planning and engaged with early-stage investors to explore fundraising opportunities',
     ],
-    logo: 'https://res.cloudinary.com/dmglst5zt/image/upload/v1763310308/logo.95632a3e85d5b3bdc8fabfaddfb65920_gvqbve.svg', // Placeholder - replace with Avasify logo
+    logo: 'https://res.cloudinary.com/dmglst5zt/image/upload/v1763310308/logo.95632a3e85d5b3bdc8fabfaddfb65920_gvqbve.svg',
   },
 ];
 

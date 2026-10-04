@@ -13,6 +13,30 @@
     @apply bg-neutral-black text-neutral-light font-sans antialiased;
     @apply selection:bg-accent-teal/30 selection:text-neutral-light;
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Focus visible accessibility ring */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent-teal/60 ring-offset-2 ring-offset-neutral-black;
+  }
+
+  /* Custom subtle dark scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0d0d0d;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #383838;
   }
   
   @media (min-width: 768px) {

@@ -231,7 +231,7 @@ export default function SmileButton() {
                 Thanks! You&apos;re the #{count} to add a smile!
               </span>
             ) : showMessage && error ? (
-              <span>Hmm — try again</span>
+              <span>Hmm - try again</span>
             ) : (
               <span className="inline-flex items-center gap-2">
                 <span className="text-2xl animate-bounce-slow">😊</span>

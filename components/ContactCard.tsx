@@ -51,17 +51,6 @@ export default function ContactCard() {
               >
                 Email Me
               </motion.a>
-              <motion.a
-                href="https://drive.google.com/file/d/1IkNnCYwzxfeoC8hEFPs1nXDqxS-N_SGM/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-neutral-dark/50 text-neutral-light font-semibold rounded-2xl border border-neutral-light/20 hover:border-accent-amber/30 hover:text-accent-amber transition-colors text-center text-sm sm:text-base"
-                aria-label="Download resume"
-              >
-                Download Resume
-              </motion.a>
             </div>
 
             <div className="mt-8 flex justify-center gap-6">

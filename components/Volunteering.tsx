@@ -31,7 +31,7 @@ const volunteeringRoles: VolunteeringRole[] = [
   },
   {
     organization: 'Mensa India Chapter',
-    role: 'Mensa Volunteer',
+    role: 'Mensa Member',
     period: '2017 - 2019',
     logo: 'https://res.cloudinary.com/dmglst5zt/image/upload/v1763306085/mensa_icon_ikuvbc.jpg',
   },

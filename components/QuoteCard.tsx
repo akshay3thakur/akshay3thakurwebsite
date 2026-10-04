@@ -138,7 +138,7 @@ export default function QuoteCard() {
             &quot;{quote?.quote || 'Keep shipping.'}&quot;
           </blockquote>
           <p className="text-lg text-accent-teal font-medium">
-            — {quote?.author || 'Akshay'}
+            - {quote?.author || 'Akshay'}
           </p>
           {quote?.category && (
             <p className="text-sm text-neutral-light/60 mt-2">{quote.category}</p>

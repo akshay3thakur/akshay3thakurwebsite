@@ -35,12 +35,12 @@ export default function Achievements() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.48, delay: index * 0.1 }}
-              className="bg-neutral-dark/50 rounded-2xl p-6 border border-neutral-light/10 hover:border-accent-amber/30 transition-all"
+              className="bg-neutral-dark/40 hover:bg-neutral-dark/60 rounded-2xl p-7 border border-neutral-light/10 hover:border-accent-amber/40 transition-all duration-300 shadow-lg group"
             >
-              <h3 className="text-xl font-semibold text-neutral-light mb-2">
+              <h3 className="text-xl font-semibold text-neutral-light mb-2.5 group-hover:text-accent-amber transition-colors duration-200">
                 {achievement.title}
               </h3>
-              <p className="text-neutral-light/80 text-sm">
+              <p className="text-neutral-light/75 text-sm md:text-base leading-relaxed">
                 {achievement.description}
               </p>
             </motion.div>
