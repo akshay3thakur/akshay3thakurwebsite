@@ -1,0 +1,8 @@
+{
+  "name": "Akshay Thakur Resume Website",
+  "description": "Portfolio of Akshay Thakur - Customer Success & Product Enthusiast. Building, testing, and optimizing solutions where product and people meet.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
