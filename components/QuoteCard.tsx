@@ -121,28 +121,60 @@ export default function QuoteCard() {
   });
 
   return (
-    <section className="py-12 px-6">
+    <section id="daily-spark" className="py-6 px-6 relative">
       <div className="max-w-4xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.48 }}
-          className="bg-neutral-dark/50 rounded-2xl p-8 md:p-12 border border-neutral-light/10 text-center"
+          transition={{ duration: 0.5 }}
+          className="relative overflow-hidden rounded-2xl bg-neutral-dark/40 hover:bg-neutral-dark/60 border border-neutral-light/10 hover:border-accent-teal/30 p-6 sm:p-8 backdrop-blur-md transition-all duration-300 shadow-xl"
         >
-          <div className="mb-8">
-            <h3 className="text-2xl md:text-3xl font-semibold text-neutral-light mb-2">A Line to Power Up Your Day :)</h3>
-            <p className="text-base text-neutral-light/60">{formattedDate}</p>
+          {/* Top bar with subtle pulse and date */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4 pb-3 border-b border-neutral-light/10">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-accent-teal animate-pulse" />
+              <span className="text-xs uppercase tracking-wider text-accent-teal font-semibold">
+                A line to power up your day :)
+              </span>
+            </div>
+            <span className="text-xs font-mono text-neutral-light/60">
+              {formattedDate}
+            </span>
           </div>
-          <blockquote className="text-xl sm:text-2xl md:text-3xl italic text-neutral-light mb-6 leading-relaxed px-2">
+
+          {/* Quote */}
+          <blockquote className="text-lg sm:text-xl md:text-2xl italic text-neutral-light leading-relaxed mb-3">
             &quot;{quote?.quote || 'Keep shipping.'}&quot;
           </blockquote>
-          <p className="text-lg text-accent-teal font-medium">
-            - {quote?.author || 'Akshay'}
-          </p>
-          {quote?.category && (
-            <p className="text-sm text-neutral-light/60 mt-2">{quote.category}</p>
-          )}
+
+          {/* Footer with author and subtle hook */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-4 pt-2">
+            <p className="text-sm md:text-base text-accent-amber font-medium">
+              - {quote?.author || 'Akshay'}
+              {quote?.category && (
+                <span className="text-xs text-neutral-light/50 font-normal ml-2">
+                  ({quote.category})
+                </span>
+              )}
+            </p>
+
+            <a
+              href="#experience"
+              className="inline-flex items-center gap-1.5 text-xs text-neutral-light/70 hover:text-accent-teal transition-colors group font-medium"
+              aria-label="Scroll to experience section"
+            >
+              <span>Explore career journey</span>
+              <svg
+                className="w-3.5 h-3.5 group-hover:translate-y-0.5 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>

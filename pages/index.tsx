@@ -32,6 +32,7 @@ export default function Home() {
 
       <main>
         <Hero />
+        <QuoteCard />
         <Timeline />
         <ProjectsGrid />
         <SkillsGrid />
@@ -39,7 +40,6 @@ export default function Home() {
         <Achievements />
         <Volunteering />
         <Certifications />
-        <QuoteCard />
         <SmileButton />
         <ContactCard />
       </main>
