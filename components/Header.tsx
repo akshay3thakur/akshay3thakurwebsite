@@ -59,28 +59,21 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScrollClose);
   }, [isMobileMenuOpen]);
 
-  const handleNavClick = (href: string, external?: boolean) => {
-    if (external) {
-      setIsMobileMenuOpen(false);
-      window.open(href, '_blank', 'noopener,noreferrer');
-    } else {
-      // Close mobile menu first
-      setIsMobileMenuOpen(false);
-      // Use setTimeout to ensure menu closes before scrolling
-      setTimeout(() => {
-        const sectionId = href.replace('#', '');
-        const element = document.getElementById(sectionId);
-        if (element) {
-          const headerOffset = 80;
-          const elementPosition = element.getBoundingClientRect().top;
-          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth',
-          });
-        }
-      }, 100);
-    }
+  const handleNavClick = (href: string) => {
+    setIsMobileMenuOpen(false);
+    setTimeout(() => {
+      const sectionId = href.replace('#', '');
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const headerOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth',
+        });
+      }
+    }, 100);
   };
 
   return (
@@ -109,24 +102,35 @@ export default function Header() {
           <ul className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
               <li key={item.label}>
-                <button
-                  onClick={() => handleNavClick(item.href, item.external)}
-                  className={`text-sm font-medium transition-colors relative ${
-                    activeSection === item.href.replace('#', '') && !item.external
-                      ? 'text-accent-teal'
-                      : 'text-neutral-light hover:text-accent-amber'
-                  }`}
-                  aria-label={item.label}
-                >
-                  {item.label}
-                  {activeSection === item.href.replace('#', '') && !item.external && (
-                    <motion.span
-                      layoutId="activeSection"
-                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-accent-teal"
-                      transition={{ type: 'spring', stiffness: 380, damping: 30 }}
-                    />
-                  )}
-                </button>
+                {item.external ? (
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-medium transition-colors text-neutral-light/80 hover:text-accent-amber"
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <button
+                    onClick={() => handleNavClick(item.href)}
+                    className={`text-sm font-medium transition-colors relative ${
+                      activeSection === item.href.replace('#', '')
+                        ? 'text-accent-teal'
+                        : 'text-neutral-light hover:text-accent-amber'
+                    }`}
+                    aria-label={item.label}
+                  >
+                    {item.label}
+                    {activeSection === item.href.replace('#', '') && (
+                      <motion.span
+                        layoutId="activeSection"
+                        className="absolute -bottom-1 left-0 right-0 h-0.5 bg-accent-teal"
+                        transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                      />
+                    )}
+                  </button>
+                )}
               </li>
             ))}
           </ul>
@@ -162,17 +166,28 @@ export default function Header() {
             >
               {navItems.map((item) => (
                 <li key={item.label}>
-                  <button
-                    onClick={() => handleNavClick(item.href, item.external)}
-                    className={`w-full text-left px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
-                      activeSection === item.href.replace('#', '') && !item.external
-                        ? 'text-accent-teal bg-accent-teal/10'
-                        : 'text-neutral-light hover:text-accent-amber hover:bg-neutral-dark/50'
-                    }`}
-                    aria-label={item.label}
-                  >
-                    {item.label}
-                  </button>
+                  {item.external ? (
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-3 rounded-lg text-sm font-medium transition-colors text-neutral-light hover:text-accent-amber hover:bg-neutral-dark/50"
+                    >
+                      {item.label}
+                    </a>
+                  ) : (
+                    <button
+                      onClick={() => handleNavClick(item.href)}
+                      className={`w-full text-left px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
+                        activeSection === item.href.replace('#', '')
+                          ? 'text-accent-teal bg-accent-teal/10'
+                          : 'text-neutral-light hover:text-accent-amber hover:bg-neutral-dark/50'
+                      }`}
+                      aria-label={item.label}
+                    >
+                      {item.label}
+                    </button>
+                  )}
                 </li>
               ))}
             </motion.ul>

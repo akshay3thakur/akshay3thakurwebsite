@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -59,6 +60,13 @@ export default function Footer() {
             >
               Back to top
             </a>
+            <Link
+              href="/quotes"
+              className="text-neutral-light/60 hover:text-accent-teal transition-colors text-sm"
+              aria-label="Quote Archive"
+            >
+              Quotes
+            </Link>
             <a
               href="https://akshay3thakur.hashnode.dev/"
               target="_blank"

@@ -4,6 +4,15 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://res.cloudinary.com/dmglst5zt/image/upload/v1762539370/IMG_5192_vuqzda.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://res.cloudinary.com/dmglst5zt/image/upload/v1762539370/IMG_5192_vuqzda.png"
+        />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{

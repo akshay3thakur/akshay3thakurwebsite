@@ -18,13 +18,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Akshay Thakur Resume Website</title>
+        <title>Akshay Thakur</title>
         <meta
           name="description"
           content="Portfolio of Akshay Thakur - Customer Success & Product Enthusiast. Building, testing, and optimizing solutions where product and people meet."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://res.cloudinary.com/dmglst5zt/image/upload/v1762539370/IMG_5192_vuqzda.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://res.cloudinary.com/dmglst5zt/image/upload/v1762539370/IMG_5192_vuqzda.png"
+        />
       </Head>
 
       <RightSideProgressBar />

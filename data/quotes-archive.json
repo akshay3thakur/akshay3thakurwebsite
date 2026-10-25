@@ -1,0 +1,352 @@
+[
+  {
+    "id": "q-2026-10-25",
+    "quote": "If you're going to be fighting anyway, why not fight to win and not just to survive.",
+    "author": "Kyle Vidrine",
+    "category": "Inspirational",
+    "date": "2026-10-25",
+    "year": 2026,
+    "month": 10,
+    "day": 25
+  },
+  {
+    "id": "q-2026-10-24",
+    "quote": "Simplicity is the prerequisite for reliability.",
+    "author": "Edsger W. Dijkstra",
+    "category": "Engineering",
+    "date": "2026-10-24",
+    "year": 2026,
+    "month": 10,
+    "day": 24
+  },
+  {
+    "id": "q-2026-10-23",
+    "quote": "Focus is a matter of deciding what things you are not going to do.",
+    "author": "John Carmack",
+    "category": "Productivity",
+    "date": "2026-10-23",
+    "year": 2026,
+    "month": 10,
+    "day": 23
+  },
+  {
+    "id": "q-2026-10-22",
+    "quote": "Details matter. It is worth waiting to get it right.",
+    "author": "Steve Jobs",
+    "category": "Design & Craft",
+    "date": "2026-10-22",
+    "year": 2026,
+    "month": 10,
+    "day": 22
+  },
+  {
+    "id": "q-2026-10-21",
+    "quote": "You do not rise to the level of your goals, you fall to the level of your systems.",
+    "author": "James Clear",
+    "category": "Strategy & Systems",
+    "date": "2026-10-21",
+    "year": 2026,
+    "month": 10,
+    "day": 21
+  },
+  {
+    "id": "q-2026-10-20",
+    "quote": "Make it work, make it right, make it fast.",
+    "author": "Kent Beck",
+    "category": "Engineering",
+    "date": "2026-10-20",
+    "year": 2026,
+    "month": 10,
+    "day": 20
+  },
+  {
+    "id": "q-2026-10-19",
+    "quote": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay",
+    "category": "Inspirational",
+    "date": "2026-10-19",
+    "year": 2026,
+    "month": 10,
+    "day": 19
+  },
+  {
+    "id": "q-2026-10-18",
+    "quote": "Knowledge comes from noticing that things are broken. Wisdom comes from fixing them.",
+    "author": "Richard Feynman",
+    "category": "Leadership & Growth",
+    "date": "2026-10-18",
+    "year": 2026,
+    "month": 10,
+    "day": 18
+  },
+  {
+    "id": "q-2026-10-17",
+    "quote": "Small deeds done are better than great deeds planned.",
+    "author": "Peter Marshall",
+    "category": "Productivity",
+    "date": "2026-10-17",
+    "year": 2026,
+    "month": 10,
+    "day": 17
+  },
+  {
+    "id": "q-2026-10-16",
+    "quote": "Quality is not an act, it is a habit.",
+    "author": "Aristotle",
+    "category": "Design & Craft",
+    "date": "2026-10-16",
+    "year": 2026,
+    "month": 10,
+    "day": 16
+  },
+  {
+    "id": "q-2026-10-15",
+    "quote": "Continuous improvement is better than delayed perfection.",
+    "author": "Mark Twain",
+    "category": "Productivity",
+    "date": "2026-10-15",
+    "year": 2026,
+    "month": 10,
+    "day": 15
+  },
+  {
+    "id": "q-2026-10-14",
+    "quote": "First principles thinking is the art of questioning everything you think you know.",
+    "author": "Aristotle",
+    "category": "Strategy & Systems",
+    "date": "2026-10-14",
+    "year": 2026,
+    "month": 10,
+    "day": 14
+  },
+  {
+    "id": "q-2026-09-30",
+    "quote": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "category": "Inspirational",
+    "date": "2026-09-30",
+    "year": 2026,
+    "month": 9,
+    "day": 30
+  },
+  {
+    "id": "q-2026-09-15",
+    "quote": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "author": "Seneca",
+    "category": "Productivity",
+    "date": "2026-09-15",
+    "year": 2026,
+    "month": 9,
+    "day": 15
+  },
+  {
+    "id": "q-2026-08-20",
+    "quote": "Good design is as little design as possible.",
+    "author": "Dieter Rams",
+    "category": "Design & Craft",
+    "date": "2026-08-20",
+    "year": 2026,
+    "month": 8,
+    "day": 20
+  },
+  {
+    "id": "q-2026-08-01",
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "author": "Martin Fowler",
+    "category": "Engineering",
+    "date": "2026-08-01",
+    "year": 2026,
+    "month": 8,
+    "day": 1
+  },
+  {
+    "id": "q-2026-07-12",
+    "quote": "If you want to build a ship, don't drum up people to collect wood, rather teach them to long for the endless immensity of the sea.",
+    "author": "Antoine de Saint-Exupéry",
+    "category": "Leadership & Growth",
+    "date": "2026-07-12",
+    "year": 2026,
+    "month": 7,
+    "day": 12
+  },
+  {
+    "id": "q-2026-06-18",
+    "quote": "Action expresses priorities.",
+    "author": "Mahatma Gandhi",
+    "category": "Productivity",
+    "date": "2026-06-18",
+    "year": 2026,
+    "month": 6,
+    "day": 18
+  },
+  {
+    "id": "q-2026-05-25",
+    "quote": "Premature optimization is the root of all evil in programming.",
+    "author": "Donald Knuth",
+    "category": "Engineering",
+    "date": "2026-05-25",
+    "year": 2026,
+    "month": 5,
+    "day": 25
+  },
+  {
+    "id": "q-2026-04-10",
+    "quote": "The impediment to action advances action. What stands in the way becomes the way.",
+    "author": "Marcus Aurelius",
+    "category": "Inspirational",
+    "date": "2026-04-10",
+    "year": 2026,
+    "month": 4,
+    "day": 10
+  },
+  {
+    "id": "q-2026-03-14",
+    "quote": "Everything should be made as simple as possible, but not simpler.",
+    "author": "Albert Einstein",
+    "category": "Strategy & Systems",
+    "date": "2026-03-14",
+    "year": 2026,
+    "month": 3,
+    "day": 14
+  },
+  {
+    "id": "q-2026-02-09",
+    "quote": "Design is not just what it looks like and feels like. Design is how it works.",
+    "author": "Steve Jobs",
+    "category": "Design & Craft",
+    "date": "2026-02-09",
+    "year": 2026,
+    "month": 2,
+    "day": 9
+  },
+  {
+    "id": "q-2026-01-01",
+    "quote": "An unexamined life is not worth living.",
+    "author": "Socrates",
+    "category": "Leadership & Growth",
+    "date": "2026-01-01",
+    "year": 2026,
+    "month": 1,
+    "day": 1
+  },
+  {
+    "id": "q-2025-12-15",
+    "quote": "Simplicity is about subtracting the obvious and adding the meaningful.",
+    "author": "John Maeda",
+    "category": "Design & Craft",
+    "date": "2025-12-15",
+    "year": 2025,
+    "month": 12,
+    "day": 15
+  },
+  {
+    "id": "q-2025-11-20",
+    "quote": "The single biggest problem in communication is the illusion that it has taken place.",
+    "author": "George Bernard Shaw",
+    "category": "Leadership & Growth",
+    "date": "2025-11-20",
+    "year": 2025,
+    "month": 11,
+    "day": 20
+  },
+  {
+    "id": "q-2025-10-10",
+    "quote": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "category": "Inspirational",
+    "date": "2025-10-10",
+    "year": 2025,
+    "month": 10,
+    "day": 10
+  },
+  {
+    "id": "q-2025-09-05",
+    "quote": "Efficiency is doing things right; effectiveness is doing the right things.",
+    "author": "Peter Drucker",
+    "category": "Productivity",
+    "date": "2025-09-05",
+    "year": 2025,
+    "month": 9,
+    "day": 5
+  },
+  {
+    "id": "q-2025-08-18",
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson",
+    "category": "Engineering",
+    "date": "2025-08-18",
+    "year": 2025,
+    "month": 8,
+    "day": 18
+  },
+  {
+    "id": "q-2025-07-04",
+    "quote": "Great things are done by a series of small things brought together.",
+    "author": "Vincent van Gogh",
+    "category": "Design & Craft",
+    "date": "2025-07-04",
+    "year": 2025,
+    "month": 7,
+    "day": 4
+  },
+  {
+    "id": "q-2025-06-11",
+    "quote": "A complex system that works is invariably found to have evolved from a simple system that worked.",
+    "author": "John Gall",
+    "category": "Strategy & Systems",
+    "date": "2025-06-11",
+    "year": 2025,
+    "month": 6,
+    "day": 11
+  },
+  {
+    "id": "q-2025-05-01",
+    "quote": "Courage is not the absence of fear, but rather the assessment that something else is more important than fear.",
+    "author": "Franklin D. Roosevelt",
+    "category": "Inspirational",
+    "date": "2025-05-01",
+    "year": 2025,
+    "month": 5,
+    "day": 1
+  },
+  {
+    "id": "q-2025-04-14",
+    "quote": "The greatest enemy of good thinking is busywork.",
+    "author": "Paul Graham",
+    "category": "Productivity",
+    "date": "2025-04-14",
+    "year": 2025,
+    "month": 4,
+    "day": 14
+  },
+  {
+    "id": "q-2025-03-22",
+    "quote": "If you cannot explain it simply, you do not understand it well enough.",
+    "author": "Richard Feynman",
+    "category": "Leadership & Growth",
+    "date": "2025-03-22",
+    "year": 2025,
+    "month": 3,
+    "day": 22
+  },
+  {
+    "id": "q-2024-11-12",
+    "quote": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
+    "author": "Antoine de Saint-Exupéry",
+    "category": "Design & Craft",
+    "date": "2024-11-12",
+    "year": 2024,
+    "month": 11,
+    "day": 12
+  },
+  {
+    "id": "q-2024-08-15",
+    "quote": "Do not seek to follow in the footsteps of the wise; seek what they sought.",
+    "author": "Matsuo Basho",
+    "category": "Strategy & Systems",
+    "date": "2024-08-15",
+    "year": 2024,
+    "month": 8,
+    "day": 15
+  }
+]
