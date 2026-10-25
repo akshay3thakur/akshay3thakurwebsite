@@ -1,4 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+import { checkBotId } from 'botid/server';
 
 const appKey = '9w7v8p3u';
 const itemKey = 'smile';
@@ -26,6 +27,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   if (req.method === 'POST') {
+    // BotID server check to prevent automated spam
+    try {
+      const verification = await checkBotId();
+      if (verification?.isBot) {
+        return res.status(403).json({ error: 'Bot detected. Access denied.' });
+      }
+    } catch {
+      // In local dev without Vercel Edge firewall, proceed gracefully
+    }
+
     localCount += 1;
     try {
       await fetch(`https://keyvalue.immanuel.co/api/KeyVal/ActOnValue/${appKey}/${itemKey}/Increment`, {
